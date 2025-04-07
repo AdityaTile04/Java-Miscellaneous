@@ -1,3 +1,5 @@
+package ExceptionHandling;
+
 public class TryAndCatch {
     // Example 1
     public static void main(String args[]) {
@@ -17,12 +19,6 @@ public class TryAndCatch {
             System.out.println("Array of out bounds error");
         }
         System.out.println("Hello World");
-
-        // Example 3
-
-
-
-
     }
 
     public static int divide(int a, int b) {
@@ -33,9 +29,6 @@ public class TryAndCatch {
            return 0;
        }
     }
-
-
-
 
 }
 
