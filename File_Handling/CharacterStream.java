@@ -24,6 +24,5 @@ public class CharacterStream {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
     }
 }
