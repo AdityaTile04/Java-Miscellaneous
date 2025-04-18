@@ -16,5 +16,14 @@ public class CharacterStream {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
+
+        try {
+            FileWriter writer = new FileWriter("file.txt");
+            writer.write("Hello, Aditya");
+            writer.close();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }
