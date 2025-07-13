@@ -41,5 +41,21 @@ public class Throws {
         ageCheck(14);
         System.out.println(divideByNumber( 10, 2 ));
 
+        Voting v = new Voting();
+        v.vote( 12 );
+
     }
 }
+
+
+class Voting {
+    public void vote(int age) throws ArithmeticException {
+        if(age < 18) {
+            throw new ArithmeticException("Not eligible to vote");
+        } else {
+            System.out.println("Eligible to vote");
+        }
+    }
+}
+
+
